@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { useState, FC } from "react";
-import { StyleSheet, Text, View , ScrollView} from "react-native";
+import { StyleSheet, Text, View, ScrollView } from "react-native";
 import { AddTodo } from "./src/AddTodo";
 import { Navbar } from "./src/Navbar";
 import { Todo } from "./src/Todo";
@@ -25,6 +25,10 @@ export default function App() {
       },
     ]);
   };
+
+
+
+
 
   return (
     <View style={styles.container}>

@@ -9,7 +9,7 @@ interface ITodo {
 export const Todo:FC<ITodo> = ({ todo, key }) => {
   return (
     <View style={styles.todo}>
-      <Text>{todo.title}</Text>
+      <Text key={todo.id}>{todo.title}</Text>
     </View>
   );
 };
